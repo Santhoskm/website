@@ -1,0 +1,68 @@
+.Ecommers__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem, 6rem;
+}
+
+.Ecommers__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Ecommers__navbar-links_logo {
+    margin-right: 3rem;
+}
+
+.Ecommers__navbar-links_logo img {
+    width: 175px;
+    height: 90px;
+}
+
+.Ecommers__navbar-links_containers {
+    display: flex;
+    flex-direction: row;
+}
+
+.Ecpmmers__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Ecommers__navbar-links_containers p,
+.Ecpmmers__navbar-sign p,
+.Ecommers__navbar-menu_containers p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+
+.Ecommers__navbar-sign button,
+.Ecommers__navbar-menu_containers button {
+    width: 130px;
+    height: 46px;
+    color: aliceblue;
+    left: 1000px;
+    top: 60px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-right: 20px;
+    background: #8e05ce;
+    border-radius: 5px;
+}
