@@ -6,12 +6,12 @@ import Web from "./pages/web/Web";
 import Library from "./pages/library/Library";
 
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
 } from "react-router-dom";
 
 ReactDOM.render(<App />, document.getElementById('root'));
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <App />,
