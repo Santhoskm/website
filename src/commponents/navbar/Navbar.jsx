@@ -13,9 +13,9 @@ const Navbar = () => {
                 <div className="Ecommers__navbar-links_logo">
                     <img src={lo} alt="lo" /></div>
                 <ul className='Ecommers__navbar-links_containers'>
-                    <p><a href="/">Home</a></p>
-                    <p><a href="/about">About web</a></p>
-                    <p><a href="/library">Library</a></p>
+                    <p><a href="#/">Home</a></p>
+                    <p><a href="#/about">About web</a></p>
+                    <p><a href="#/library">Library</a></p>
                 </ul>
 
 
