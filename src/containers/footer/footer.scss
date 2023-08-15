@@ -100,3 +100,38 @@ $font-family_1: var(--font-family);
 		color: $color_2;
 	}
 }
+@media screen and (max-width: 850px) {
+	.Ecommers__footer-heading {
+		h1 {
+			font-size: 44px;
+			line-height: 50px;
+		}
+	}
+}
+@media screen and (max-width: 550px) {
+	.Ecommers__footer-heading {
+		h1 {
+			font-size: 34px;
+			line-height: 42px;
+		}
+	}
+	.Ecommers__footer-links {
+		div {
+			margin: 1rem 0;
+		}
+	}
+	.Ecommers__footer-btn {
+		p {
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+}
+@media screen and (max-width: 400px) {
+	.Ecommers__footer-heading {
+		h1 {
+			font-size: 27px;
+			line-height: 38px;
+		}
+	}
+}
