@@ -122,6 +122,7 @@ $font-family_1: var(--font-family);
 	margin-left: 1rem;
 	display: none;
 	position: relative;
+	z-index: 1;
 	svg {
 		cursor: pointer;
 	}
